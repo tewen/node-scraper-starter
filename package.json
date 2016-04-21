@@ -1,0 +1,26 @@
+{
+  "name": "node-scraper-starter",
+  "version": "1.0.0",
+  "description": "A simple seed project to get you started with node scraping.",
+  "main": "run.js",
+  "engine": "node 4.4.0",
+  "scripts": {
+    "start": "node run.js",
+    "start-with-logging": "node run.js --logging"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tewen/node-scraper-starter.git"
+  },
+  "author": "Trevor Ewen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tewen/node-scraper-starter/issues"
+  },
+  "homepage": "https://github.com/tewen/node-scraper-starter#readme",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "lodash": "^4.11.1",
+    "request": "^2.72.0"
+  }
+}
